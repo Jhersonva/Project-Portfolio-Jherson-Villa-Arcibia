@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Jherson Villa A. | Ingeniero de Sistemas & Fullstack Developer</title>
+    
+    <!-- Meta tags para SEO -->
+    <meta name="description" content="Portafolio profesional de Ingeniero de Sistemas especializado en Laravel y Vue.js. Desarrollo de SaaS, sistemas escalables y aplicaciones modernas.">
+    <meta name="keywords" content="Laravel, Vue.js, Fullstack Developer, SaaS, Sistemas Escalables, PHP, JavaScript">
+    <meta name="author" content="Jherson Villa A.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Jherson Villa A. | Fullstack Developer">
+    <meta property="og:description" content="Especialista en Laravel y Vue.js - Desarrollo de SaaS y sistemas escalables">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Custom Cursor (oculto en móvil) -->
+    <div class="cursor"></div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-text">JV</div>
+            <div style="margin-top: 20px; font-size: 0.9rem; opacity: 0.7;">Programador Web FullStack</div>
+        </div>
+    </div>
+
+    <!-- Navegación -->
+    <nav>
+        <div class="logo">JV</div>
+        <div class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <div class="nav-right">
+            <div class="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menú móvil -->
+    <div class="mobile-menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <canvas id="canvas"></canvas>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-aos="fade-up">Jherson Villa A.</h1>
+                <div class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Ingeniero de Sistemas | Fullstack Developer
+                    <br>
+                    <span style="font-size: 1rem; opacity: 0.9;">Especialista en Laravel & Vue.js</span>
+                </div>
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#contacto" class="btn btn-outline">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper" data-aos="fade-left" data-aos-delay="200">
+                <div class="hero-image-frame">
+                    <img src="images/fotos-system/jherson.png" alt="Jherson Villa A." class="hero-image">
+                    <div class="hero-image-glow"></div>
+                    <div class="hero-image-ring"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Sobre Mí</h2>
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right">
+                    <p style="margin-bottom: 1.5rem;">
+                        Soy Ingeniero de Sistemas con más de 2 años de experiencia en el desarrollo de aplicaciones web escalables y de alto rendimiento. Me especializo en la creación de sistemas empresariales y APIs robustas utilizando Laravel y Vue.js.
+                    </p>
+                    <p>
+                        Mi enfoque combina las mejores prácticas de desarrollo con un diseño cuidado y experiencia de usuario excepcional. He trabajado con startups y empresas establecidas, ayudándolas a transformar sus ideas en productos digitales exitosos.
+                    </p>
+                    
+                    <div class="stats">
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Años Experiencia</div>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Proyectos Completados</div>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Clientes Satisfechos</div>
+                        </div>
+                    </div>
+
+                    <!-- VillaCode Emprendimiento -->
+                    <div class="entrepreneurship-section" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="entrepreneurship-logo">
+                            <img src="images/fotos-system/villacode.png" alt="VillaCode Logo">
+                        </div>
+                        <div class="entrepreneurship-content">
+                            <h3>VillaCode</h3>
+                            <p>Mi emprendimiento dedicado al desarrollo de sistemas web escalables y soluciones digitales innovadoras para empresas de todos los tamaños.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <div class="tech-subtitle">Stack Tecnológico</div>
+                    <div class="tech-categories">
+                        <!-- Frameworks -->
+                        <div class="tech-category">
+                            <div class="category-title">Frameworks</div>
+                            <div class="tech-grid">
+                                <div class="tech-item">
+                                    <i class="fab fa-laravel tech-icon"></i>
+                                    <div class="tech-name">Laravel</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-vuejs tech-icon"></i>
+                                    <div class="tech-name">Vue.js</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-bootstrap tech-icon"></i>
+                                    <div class="tech-name">Bootstrap</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lenguajes -->
+                        <div class="tech-category">
+                            <div class="category-title">Lenguajes</div>
+                            <div class="tech-grid">
+                                <div class="tech-item">
+                                    <i class="fab fa-js tech-icon"></i>
+                                    <div class="tech-name">JavaScript</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-php tech-icon"></i>
+                                    <div class="tech-name">PHP</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="devicon-java-plain tech-icon"></i>
+                                    <div class="tech-name">Java</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Base de Datos -->
+                        <div class="tech-category">
+                            <div class="category-title">Base de Datos</div>
+                            <div class="tech-grid">
+                                <div class="tech-item">
+                                    <i class="fas fa-database tech-icon"></i>
+                                    <div class="tech-name">MySQL</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="devicon-postgresql-plain tech-icon"></i>
+                                    <div class="tech-name">PostgreSQL</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Control de Versiones -->
+                        <div class="tech-category">
+                            <div class="category-title">Control de Versiones</div>
+                            <div class="tech-grid">
+                                <div class="tech-item">
+                                    <i class="fab fa-git-alt tech-icon"></i>
+                                    <div class="tech-name">Git</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-github tech-icon"></i>
+                                    <div class="tech-name">GitHub</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Despliegue -->
+                        <div class="tech-category">
+                            <div class="category-title">Despliegue</div>
+                            <div class="tech-grid">
+                                <div class="tech-item">
+                                    <i class="fab fa-docker tech-icon"></i>
+                                    <div class="tech-name">Docker</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 30%"></div>
+                                    </div>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-server tech-icon"></i>
+                                    <div class="tech-name">Hostinger</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                                <!-- Hetzner -->
+                                <div class="tech-item">
+                                    <i class="fas fa-server tech-icon"></i>
+                                    <div class="tech-name">Hetzner</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- APIs / Testing -->
+                        <div class="tech-category">
+                            <div class="category-title">APIs / Testing</div>
+                            <div class="tech-grid">
+                                <div class="tech-item">
+                                    <i class="fas fa-vial tech-icon"></i>
+                                    <div class="tech-name">Postman</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-flask tech-icon"></i>
+                                    <div class="tech-name">Insomnia</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Seguridad / Autenticación -->
+                        <div class="tech-category">
+                            <div class="category-title">Seguridad / Autenticación</div>
+                            <div class="tech-grid">
+                                <div class="tech-item">
+                                    <i class="fas fa-key tech-icon"></i>
+                                    <div class="tech-name">JWT</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Patrones / Arquitectura -->
+                        <div class="tech-category">
+                            <div class="category-title">Patrones / Arquitectura</div>
+                            <div class="tech-grid">
+                                <div class="tech-item">
+                                    <i class="fas fa-project-diagram tech-icon"></i>
+                                    <div class="tech-name">MVC</div>
+                                    <div class="tech-level">
+                                        <div class="tech-level-bar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Proyectos Destacados</h2>
+            <div class="projects-categories">
+                <!-- Sistemas Web Fullstack -->
+                <div class="project-category">
+                    <div class="project-category-title">Sistemas Web Fullstack</div>
+                    <div class="projects-grid">
+                        <!-- Proyecto 1 - Supera Anuncios -->
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="project-image-wrapper">
+                                <img src="images/projects/supera-anuncios/supera-anuncio-1.jpeg" alt="SaaS Platform" class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <span class="project-badge">Destacado</span>
+                                        <div class="project-overlay-links">
+                                            <a href="https://superaanuncios.com/" class="project-overlay-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                            <!--<a href="https://github.com/SuperaAnuncios/Sistema-Supera-Anuncios" class="project-overlay-link"><i class="fab fa-github"></i></a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">Supera Anuncios</h3>
+                                    <div class="project-year">2026</div>
+                                </div>
+                                <p class="project-description">
+                                    Sistema web de anuncios desarrollado a medida que permite a los usuarios registrarse, gestionar recargas y publicar anuncios categorizados. Incluye un panel administrativo completo para la aprobación de anuncios y control de recargas, gestión de roles, módulo de caja, exportación de información, configuración del sitio en tiempo real, integración con Google Analytics y verificación de cuentas mediante correo SMTP.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                                    <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
+                                    <span class="tech-tag"><i class="fas fa-plug"></i> Hetzner</span>
+                                    <span class="tech-tag"><i class="fas fa-chart-line"></i> Analytics</span>
+                                    <span class="tech-tag"><i class="fas fa-chart-pie"></i> Dashboard</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="project-stat">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.8</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>24</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-clock"></i>
+                                        <span>3 meses</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://superaanuncios.com/" class="project-link primary" target="_blank">
+                                        <i class="fas fa-eye"></i> Live Demo
+                                        <span class="link-effect"></span>
+                                    </a>
+                                    <!--
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i> Repo
+                                    </a>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proyecto 2 - Laundry System -->
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="project-image-wrapper">
+                                <img src="images/projects/lavanderia-susan/lavanderia-susan-1.jpeg" alt="E-commerce API" class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <span class="project-badge">Destacado</span>
+                                        <div class="project-overlay-links">
+                                            <!--
+                                            <a href="#" class="project-overlay-link"><i class="fas fa-external-link-alt"></i></a>
+                                            <a href="#" class="project-overlay-link"><i class="fab fa-github"></i></a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">Laundry System</h3>
+                                    <div class="project-year">2026</div>
+                                </div>
+                                <p class="project-description">
+                                    Plataforma de gestión empresarial para lavanderías que centraliza la operación completa del negocio, integrando una web pública informativa con un sistema administrativo avanzado. Incluye gestión de clientes, múltiples sucursales, inventario, personal y ventas a través de un módulo POS, así como control de pedidos, emisión de tickets y trazabilidad de productos entre sedes. Incorpora asignación de servicios por sucursal, reportes inteligentes con exportación y herramientas diseñadas para mejorar la eficiencia y el control operativo en tiempo real.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                                    <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
+                                    <span class="tech-tag"><i class="fas fa-plug"></i> Hetzner</span>
+                                    <span class="tech-tag"><i class="fas fa-chart-pie"></i> Dashboard</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="project-stat">
+                                        <i class="fas fa-rocket"></i>
+                                        <span>200ms</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>18</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-clock"></i>
+                                        <span>3 meses</span>
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="project-links">
+                                    <a href="#" class="project-link primary">
+                                        <i class="fas fa-eye"></i> Live Demo
+                                        <span class="link-effect"></span>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i> Repo
+                                    </a>
+                                </div>-->
+                            </div>
+                        </div>
+
+                        <!-- Proyecto 3 - CastroERP -->
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="project-image-wrapper">
+                                <img src="images/projects/equipos-grupo-castro/equipos-grupo-castro-1.jpeg" alt="ERP System" class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <span class="project-badge">Destacado</span>
+                                        <div class="project-overlay-links">
+                                            <a href="https://equipos.grupocastro.org/" target="_blank" class="project-overlay-link"><i class="fas fa-external-link-alt"></i></a>
+                                            <!--<a href="#" class="project-overlay-link"><i class="fab fa-github"></i></a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">CastroERP</h3>
+                                    <div class="project-year">2026</div>
+                                </div>
+                                <p class="project-description">
+                                    Sistema ERP personalizado que centraliza la gestión comercial, operativa y de desarrollo de software en una sola plataforma. Combina una web pública dinámica para la exhibición de productos y servicios con un panel administrativo completo que permite gestionar contenido, usuarios con roles y jerarquías, cotizaciones y comunicación con clientes. Incorpora un módulo de seguimiento de proyectos donde los clientes pueden visualizar el progreso de sus sistemas, estados, requerimientos y reuniones, ofreciendo transparencia y control total durante todo el ciclo de desarrollo.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                                    <!--<span class="tech-tag"><i class="fab fa-vuejs"></i> React.js</span>-->
+                                    <span class="tech-tag"><i class="fas fa-database"></i> MySql</span>
+                                    <!--<span class="tech-tag"><i class="fas fa-plug"></i> WebSockets</span>-->
+                                    <span class="tech-tag"><i class="fas fa-plug"></i> Hetzner</span>
+                                    <span class="tech-tag"><i class="fas fa-chart-pie"></i> Dashboard</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="project-stat">
+                                        <i class="fas fa-cubes"></i>
+                                        <span>20 mod.</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>32</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-tachometer-alt"></i>
+                                        <span>99.9%</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://equipos.grupocastro.org/" target="_blank" class="project-link primary">
+                                        <i class="fas fa-eye"></i> Live Demo
+                                        <span class="link-effect"></span>
+                                    </a>
+                                    <!--
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i> Repo
+                                    </a>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proyecto 4 - CoreVision -->
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="project-image-wrapper">
+                                <img src="images/projects/hikvision-huancayo/hikvision-huancayo-1.jpeg" alt="CoreVision" class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <span class="project-badge">Destacado</span>
+                                        <div class="project-overlay-links">
+                                            <a href="https://hikvisionhuancayo.com/" target="_blank" class="project-overlay-link"><i class="fas fa-external-link-alt"></i></a>
+                                            <!--<a href="#" class="project-overlay-link"><i class="fab fa-github"></i></a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">CoreVision</h3>
+                                    <div class="project-year">2026</div>
+                                </div>
+                                <p class="project-description">
+                                    Plataforma web corporativa completamente administrable que integra una página pública para la presentación de la empresa con un panel administrativo centralizado. Permite gestionar dinámicamente todo el contenido del sitio como sliders, servicios, productos, equipo de trabajo, información corporativa y libro de reclamaciones. Incluye recepción de mensajes desde formularios web y herramientas para mantener actualizada la información en tiempo real, facilitando la gestión digital del negocio de forma ágil y eficiente.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                                    <span class="tech-tag"><i class="fas fa-database"></i> MySql</span>
+                                    <span class="tech-tag"><i class="fas fa-plug"></i> Hetzner</span>
+                                    <span class="tech-tag"><i class="fas fa-chart-pie"></i> Dashboard</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="project-stat">
+                                        <i class="fas fa-cubes"></i>
+                                        <span>20 mod.</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>32</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-tachometer-alt"></i>
+                                        <span>99.9%</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://hikvisionhuancayo.com/" target="_blank" class="project-link primary">
+                                        <i class="fas fa-eye"></i> Live Demo
+                                        <span class="link-effect"></span>
+                                    </a>
+                                    <!--
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i> Repo
+                                    </a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sistemas Backend API RESTful (vacío - listo para agregar) -->
+                <div class="project-category">
+                    <div class="project-category-title">Sistemas Backend - API RESTful</div>
+                    <div class="projects-grid">
+                        <!-- Proyecto 5 - Plent -->
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="project-image-wrapper">
+                                <img src="images/projects/plent/plent-1.jpg" alt="Plent" class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <span class="project-badge">Destacado</span>
+                                        <div class="project-overlay-links">
+                                            <a href="https://plent-agriculture.com/" target="_blank" class="project-overlay-link"><i class="fas fa-external-link-alt"></i></a>
+                                            <!--<a href="#" class="project-overlay-link"><i class="fab fa-github"></i></a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">Plent</h3>
+                                    <div class="project-year">2025</div>
+                                </div>
+                                <p class="project-description">
+                                    Desarrollo de plataforma web para el sector agropecuario en colaboración con cliente y equipo frontend, liderando el desarrollo backend y la construcción de APIs. El sistema integra una web pública para la exhibición de productos y contenido, junto a un panel administrativo avanzado que permite gestionar dinámicamente productos, precios, blogs e información general, optimizando la administración digital del negocio.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                                    <span class="tech-tag"><i class="fas fa-lock"></i> JWT</span>
+                                    <span class="tech-tag"><i class="fab fa-vuejs"></i> React</span>
+                                    <span class="tech-tag"><i class="fas fa-database"></i> MySql</span>
+                                    <span class="tech-tag"><i class="fas fa-file-alt"></i> Swagger</span>
+                                    <!--<span class="tech-tag"><i class="fas fa-plug"></i> WebSockets</span>-->
+                                    <span class="tech-tag"><i class="fas fa-chart-pie"></i> Dashboard</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="project-stat">
+                                        <i class="fas fa-cubes"></i>
+                                        <span>15 mod.</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>32</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-tachometer-alt"></i>
+                                        <span>99.9%</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://plent-agriculture.com/" target="_blank" class="project-link primary">
+                                        <i class="fas fa-eye"></i> Live Demo
+                                        <span class="link-effect"></span>
+                                    </a>
+                                    <!--
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i> Repo
+                                    </a>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proyecto 6 - Edu. Serv. Global -->
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="project-image-wrapper">
+                                <img src="images/projects/edu-serv-global/edu-serv-global-1.png" alt="Edu. Serv. Global" class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <span class="project-badge">Destacado</span>
+                                        <div class="project-overlay-links">
+                                            <!--
+                                            <a href="#" class="project-overlay-link"><i class="fas fa-external-link-alt"></i></a>
+                                            
+                                            <a href="#" class="project-overlay-link"><i class="fab fa-github"></i></a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">Edu. Serv. Global</h3>
+                                    <div class="project-year">2025</div>
+                                </div>
+                                <p class="project-description">
+                                    Plataforma web corporativa educativa desarrollada en colaboración con cliente y equipo frontend, donde lideré el desarrollo backend y la construcción de APIs. La plataforma está orientada a la oferta de educación, capacitación y cursos, integrando una web pública con secciones como historia, equipo, servicios y contacto, junto a un sistema administrativo que permite gestionar contenidos académicos y recursos de forma dinámica, optimizando la actualización de la información en tiempo real.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                                    <span class="tech-tag"><i class="fas fa-lock"></i> JWT</span>
+                                    <span class="tech-tag"><i class="fab fa-vuejs"></i> React</span>
+                                    <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
+                                    <span class="tech-tag"><i class="fas fa-file-alt"></i> Swagger</span>
+                                    <!--<span class="tech-tag"><i class="fas fa-plug"></i> WebSockets</span>-->
+                                    <span class="tech-tag"><i class="fas fa-chart-pie"></i> Dashboard</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="project-stat">
+                                        <i class="fas fa-cubes"></i>
+                                        <span>20 mod.</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>32</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-tachometer-alt"></i>
+                                        <span>99.9%</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <!--
+                                    <a href="#" class="project-link primary">
+                                        <i class="fas fa-eye"></i> Live Demo
+                                        <span class="link-effect"></span>
+                                    </a>
+                                    
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i> Repo
+                                    </a>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proyecto 7 - Atipay -->
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="project-image-wrapper">
+                                <img src="images/projects/atipay/atipay-1.jpeg" alt="Atipay" class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <span class="project-badge">Destacado</span>
+                                        <div class="project-overlay-links">
+                                            <a href="https://www.atipaycompany.com/login" target="_blank" class="project-overlay-link"><i class="fas fa-external-link-alt"></i></a>
+                                            <!--<a href="#" class="project-overlay-link"><i class="fab fa-github"></i></a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">Atipay</h3>
+                                    <div class="project-year">2025</div>
+                                </div>
+                                <p class="project-description">
+                                    Plataforma fintech para la gestión de inversiones colaborativas y redes de afiliados, donde lideré el desarrollo backend y la creación de APIs en coordinación con el cliente y el equipo frontend. El sistema incorpora registro por referidos, gestión de inversiones, compra de productos y un sistema de niveles con recompensas. Cuenta con un panel administrativo avanzado para el control de transacciones, recargas, métodos de pago y gestión de usuarios, centralizando la operación financiera y el crecimiento de la red en una sola plataforma.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                                    <span class="tech-tag"><i class="fas fa-lock"></i> JWT</span>
+                                    <span class="tech-tag"><i class="fab fa-vuejs"></i> React</span>
+                                    <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
+                                    <span class="tech-tag"><i class="fas fa-file-code"></i> Scramble</span>
+                                    <!--<span class="tech-tag"><i class="fas fa-plug"></i> WebSockets</span>-->
+                                    <span class="tech-tag"><i class="fas fa-chart-pie"></i> Dashboard</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="project-stat">
+                                        <i class="fas fa-cubes"></i>
+                                        <span>25 mod.</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>54</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-tachometer-alt"></i>
+                                        <span>99.9%</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://www.atipaycompany.com/login" target="_blank" class="project-link primary">
+                                        <i class="fas fa-eye"></i> Live Demo
+                                        <span class="link-effect"></span>
+                                    </a>
+                                    <!--
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i> Repo
+                                    </a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Páginas Web (vacío - listo para agregar) -->
+                <div class="project-category">
+                    <div class="project-category-title">Páginas Web</div>
+                    <div class="projects-grid">
+                        <!-- Proyecto 8 - CactusPro -->
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="project-image-wrapper">
+                                <img src="images/projects/cactus-pro/cactus-pro-1.jpg" alt="Edu. Serv. Global" class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <span class="project-badge">Destacado</span>
+                                        <div class="project-overlay-links">
+                                            <a href="https://webinformativaempresarial.netlify.app/" target="_blank" class="project-overlay-link"><i class="fas fa-external-link-alt"></i></a>
+                                            <a href="https://github.com/Jhersonva/Pagina-Cactus-Pro.git" target="_blank" class="project-overlay-link"><i class="fab fa-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">CactusPro</h3>
+                                    <div class="project-year">2024</div>
+                                </div>
+                                <p class="project-description">
+                                    Landing page corporativa desarrollada como demo para una empresa de tecnología, enfocada en la presentación de servicios como desarrollo de software, venta de dominios y soluciones con facturación. Incluye secciones de servicios, planes y precios, preguntas frecuentes, equipo de trabajo e información institucional, junto a un formulario de contacto, ofreciendo una estructura clara y orientada a la conversión de clientes.
+                                </p>
+                                <div class="project-tech">
+                                    <!--
+                                    <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                                    <span class="tech-tag"><i class="fab fa-vuejs"></i> Vue.js</span>
+                                    <span class="tech-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+                                    <span class="tech-tag"><i class="fas fa-plug"></i> WebSockets</span>
+                                    <span class="tech-tag"><i class="fas fa-chart-pie"></i> Dashboard</span>-->
+                                </div>
+                                <div class="project-stats">
+                                    <div class="project-stat">
+                                        <i class="fas fa-cubes"></i>
+                                        <span>7 mod.</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>32</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-tachometer-alt"></i>
+                                        <span>99.9%</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://webinformativaempresarial.netlify.app/" target="_blank" class="project-link primary">
+                                        <i class="fas fa-eye"></i> Live Demo
+                                        <span class="link-effect"></span>
+                                    </a>
+                                    <a href="https://github.com/Jhersonva/Pagina-Cactus-Pro.git" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i> Repo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proyecto 9 - Sowa Tatto -->
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="project-image-wrapper">
+                                <img src="images/projects/sowa-tatto/sowa-tatto-1.jpeg" alt="Sowa Tatto" class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <span class="project-badge">Destacado</span>
+                                        <div class="project-overlay-links">
+                                            <a href="https://sowatattos.netlify.app/" target="_blank" class="project-overlay-link"><i class="fas fa-external-link-alt"></i></a>
+                                            <a href="https://github.com/GeralDevCode/sowatattos.git" target="_blank" class="project-overlay-link"><i class="fab fa-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">Sowa Tatto</h3>
+                                    <div class="project-year">2024</div>
+                                </div>
+                                <p class="project-description">
+                                    Landing page visual desarrollada como demo para un estudio de tatuajes, orientada a la captación de clientes mediante una experiencia atractiva y moderna. Integra sliders de imágenes, presentación del estudio, explicación del proceso de tatuaje, galería de trabajos, testimonios de clientes y formulario de contacto, junto a enlaces a redes sociales, creando una propuesta enfocada en la conversión y posicionamiento de marca.
+                                </p>
+                                <div class="project-tech">
+                                    <!--
+                                    <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                                    <span class="tech-tag"><i class="fab fa-vuejs"></i> Vue.js</span>
+                                    <span class="tech-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+                                    <span class="tech-tag"><i class="fas fa-plug"></i> WebSockets</span>
+                                    <span class="tech-tag"><i class="fas fa-chart-pie"></i> Dashboard</span>-->
+                                </div>
+                                <div class="project-stats">
+                                    <div class="project-stat">
+                                        <i class="fas fa-cubes"></i>
+                                        <span>12 mod.</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>32</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-tachometer-alt"></i>
+                                        <span>99.9%</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://sowatattos.netlify.app/" target="_blank" class="project-link primary">
+                                        <i class="fas fa-eye"></i> Live Demo
+                                        <span class="link-effect"></span>
+                                    </a>
+                                    <a href="https://github.com/GeralDevCode/sowatattos.git" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i> Repo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proyecto 9 - NexCodev -->
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="project-image-wrapper">
+                                <img src="images/projects/nexcodev/nexcodex-1.jpeg" alt="Sowa Tatto" class="project-image">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <span class="project-badge">Destacado</span>
+                                        <div class="project-overlay-links">
+                                            <a href="https://nexcodev.netlify.app/" target="_blank" class="project-overlay-link"><i class="fas fa-external-link-alt"></i></a>
+                                            <a href="https://github.com/Jhersonva/Web-NexCodev.git" target="_blank" class="project-overlay-link"><i class="fab fa-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">NexCodev</h3>
+                                    <div class="project-year">2024</div>
+                                </div>
+                                <p class="project-description">
+                                    Landing page desarrollada para un emprendimiento digital orientado a servicios tecnológicos como desarrollo de software, soluciones web, marketing y soporte. Integra secciones de presentación del equipo, servicios, portafolio, testimonios y contacto, ofreciendo una estructura moderna enfocada en la conversión de clientes y el posicionamiento de marca en el entorno digital.
+                                </p>
+                                <div class="project-tech">
+                                    <!--
+                                    <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                                    <span class="tech-tag"><i class="fab fa-vuejs"></i> Vue.js</span>
+                                    <span class="tech-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+                                    <span class="tech-tag"><i class="fas fa-plug"></i> WebSockets</span>
+                                    <span class="tech-tag"><i class="fas fa-chart-pie"></i> Dashboard</span>-->
+                                </div>
+                                <div class="project-stats">
+                                    <div class="project-stat">
+                                        <i class="fas fa-cubes"></i>
+                                        <span>7 mod.</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>32</span>
+                                    </div>
+                                    <div class="project-stat">
+                                        <i class="fas fa-tachometer-alt"></i>
+                                        <span>99.9%</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://nexcodev.netlify.app/" class="project-link primary">
+                                        <i class="fas fa-eye"></i> Live Demo
+                                        <span class="link-effect"></span>
+                                    </a>
+                                    <a href="https://github.com/Jhersonva/Web-NexCodev.git" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i> Repo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aplicaciones Desktop (vacío - listo para agregar) 
+                <div class="project-category">
+                    <div class="project-category-title">Aplicaciones Desktop</div>
+                    <div class="projects-grid">
+                        
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia / Trayectoria -->
+    <section id="experiencia">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Trayectoria Profesional</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026 - Presente</div>
+                        <h3 class="timeline-title">Semi-Senior Fullstack Developer</h3>
+                        <div class="timeline-subtitle">Freelancer</div>
+                        <p style="margin-top: 1rem; color: rgba(255,255,255,0.7);">
+                            Liderazgo técnico en desarrollo de sistemas escalables, con Laravel y Vue.js asi como tambien mentor de equipos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2025</div>
+                        <h3 class="timeline-title">Backend Developer</h3>
+                        <div class="timeline-subtitle">Juarex Technology Group</div>
+                        <p style="margin-top: 1rem; color: rgba(255,255,255,0.7);">
+                            Desarrollo de aplicaciones web con Laravel (APIs RESTful), optimización de rendimiento y migración a la nube.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - 2024</div>
+                        <h3 class="timeline-title">Frontend Developer</h3>
+                        <div class="timeline-subtitle">Jhaimer Group</div>
+                        <p style="margin-top: 1rem; color: rgba(255,255,255,0.7);">
+                            Desarrollo de paginas web con consumo de apis e integración con servicios externos y bases de datos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Servicios Profesionales</h2>
+            <div class="services-grid">
+
+                <!-- Servicio 1 - Desarrollo Web -->
+                <div class="service-card premium" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-globe service-icon"></i>
+                        <div class="service-icon-glow"></div>
+                    </div>
+                    <h3 class="service-title">Desarrollo de Páginas Web</h3>
+                    <p class="service-description">
+                        Diseño y desarrollo de páginas web modernas, rápidas y totalmente a medida para tu negocio, marca personal o empresa.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Landing Pages & Web Corporativas</li>
+                        <li><i class="fas fa-check"></i> Tiendas Online (E-commerce)</li>
+                        <li><i class="fas fa-check"></i> Diseño Responsive (móvil y desktop)</li>
+                        <li><i class="fas fa-check"></i> Optimización SEO</li>
+                        <li><i class="fas fa-check"></i> Desarrollo 100% personalizado</li>
+                    </ul>
+                    <div class="service-footer">
+                        <!--<span class="service-price">Desde $499</span>-->
+                        <a href="https://wa.me/51926461654?text=Hola,%20quiero%20información%20sobre%20el%20servicio%20de%20Desarrollo%20de%20Páginas%20Web" 
+                        target="_blank" 
+                        class="service-cta">
+                            <span>Solicitar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Servicio 2 - Desarrollo SaaS (destacado) 
+                <div class="service-card premium featured" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-badge">Más Popular</div>
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-cloud service-icon"></i>
+                        <div class="service-icon-glow"></div>
+                    </div>
+                    <h3 class="service-title">Desarrollo SaaS</h3>
+                    <p class="service-description">
+                        Plataformas SaaS escalables con multi-tenancy, facturación automática y arquitectura en la nube.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Multi-tenancy</li>
+                        <li><i class="fas fa-check"></i> Stripe/PayPal</li>
+                        <li><i class="fas fa-check"></i> Auto-escalado</li>
+                        <li><i class="fas fa-check"></i> Analytics</li>
+                        <li><i class="fas fa-check"></i> Microservicios</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price">Desde $4,999</span>
+                        <a href="#contacto" class="service-cta">
+                            <span>Solicitar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>-->
+
+                <!-- Servicio 2 - APIs RESTful -->
+                <div class="service-card premium" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-server service-icon"></i>
+                        <div class="service-icon-glow"></div>
+                    </div>
+                    <h3 class="service-title">Desarrollo de APIs RESTful</h3>
+                    <p class="service-description">
+                        Creación de APIs backend seguras, escalables y optimizadas para aplicaciones web, móviles o sistemas empresariales.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Arquitectura REST robusta</li>
+                        <li><i class="fas fa-check"></i> Autenticación JWT / OAuth2</li>
+                        <li><i class="fas fa-check"></i> Integración con frontend o apps móviles</li>
+                        <li><i class="fas fa-check"></i> Documentación con Swagger</li>
+                        <li><i class="fas fa-check"></i> Seguridad y control de acceso</li>
+                    </ul>
+                    <div class="service-footer">
+                        <!--<span class="service-price">Desde $999</span>-->
+                        <a href="https://wa.me/51926461654?text=Hola,%20quiero%20información%20sobre%20el%20servicio%20de%20Desarrollo%20de%20APIs%20RESTful" 
+                        target="_blank" 
+                        class="service-cta">
+                            <span>Solicitar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Servicio 3 - Sistemas Empresariales -->
+                <div class="service-card premium" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-building service-icon"></i>
+                        <div class="service-icon-glow"></div>
+                    </div>
+                    <h3 class="service-title">Sistemas Empresariales a Medida</h3>
+                    <p class="service-description">
+                        Desarrollo de sistemas personalizados como ERP, CRM, inventarios y plataformas empresariales adaptadas a tus procesos.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Sistemas ERP y CRM personalizados</li>
+                        <li><i class="fas fa-check"></i> Gestión de usuarios y roles</li>
+                        <li><i class="fas fa-check"></i> Módulos a medida según tu negocio</li>
+                        <li><i class="fas fa-check"></i> Reportes y dashboards avanzados</li>
+                        <li><i class="fas fa-check"></i> Automatización de procesos</li>
+                    </ul>
+                    <div class="service-footer">
+                        <!--<span class="service-price">Desde $2,999</span>-->
+                        <a href="https://wa.me/51926461654?text=Hola,%20quiero%20información%20sobre%20el%20servicio%20de%20Sistemas%20Empresariales%20a%20Medida" 
+                        target="_blank" 
+                        class="service-cta">
+                            <span>Solicitar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contacto</h2>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value">jherson2408va@gmail.com</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <div class="contact-label">Teléfono</div>
+                            <div class="contact-value">+51 926 461 654</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <div class="contact-label">Ubicación</div>
+                            <div class="contact-value">Perú, Huancayo</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-text">
+                            <div class="contact-label">LinkedIn</div>
+                            <div class="contact-value">/in/jhersonvillaarcibia/</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label class="form-label">Nombre</label>
+                            <input type="text" class="form-input" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-input" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Mensaje</label>
+                            <textarea class="form-textarea" name="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                &copy; 2026 Jherson Villa A. Todos los derechos reservados.
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Jhersonva" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jhersonvillaarcibia/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/926461654" class="social-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
